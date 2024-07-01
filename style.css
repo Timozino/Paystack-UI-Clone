@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	padding: 12px 3rem;
+	background-color: #f1fef4f2;
+}
+
+header nav .logo svg {
+	display: flex;
+	align-items: center;
+}
+
+header nav .logo svg {
+	width: 125px;
+	margin-right: 24px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav .left {
+	display: flex;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	height: 40px;
+	align-items: center;
+}
+
+header nav ul li {
+	list-style: none;
+	margin-right: 24px;
+}
+
+header nav ul li:last-child {
+	list-style: none;
+	margin-right: 0;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	white-space: nowrap;
+	font-size: 15px;
+	transition: 200ms ease;
+}
+
+header nav ul li a svg {
+	width: 8px;
+	margin-left: 3px;
+	transition: 200ms ease;
+}
+
+header nav ul li a:hover svg {
+	fill: #0ba4db;
+}
+
+header nav ul li a:hover {
+	color: #0ba4db;
+}
+
+header nav ul li a.create-account {
+	background-color: #3bb75e;
+	padding: 0.6rem 1.2rem;
+	border-radius: 5px;
+	color: white;
+}
+
+header nav ul li.create {
+	transition: all 300ms ease;
+}
+
+header nav ul li.create:hover {
+	transform: translateY(-1px);
+}
+
+header nav ul li img {
+	width: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+	header {
+		padding: 1.5rem 0.5rem;
+	}
+}
